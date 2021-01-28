@@ -25,7 +25,7 @@
         $.ajax({
             url:"https://script.google.com/macros/s/AKfycby0ymh9ajQt0btq8EOU4U6rmdFFoqHTy8LUVWEWEucZ1u-7cawKE0AGGw/exec",
             data:$("form").serialize(),
-            method:"post",
+            method:"POST",
             success:function (response){
                 alert("Form submitted successfully")
                 window.location.reload()
