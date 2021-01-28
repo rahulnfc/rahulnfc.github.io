@@ -2,7 +2,9 @@
     $("#submit-form").validate({
         rules:{
             Name:{
-                required: true
+                required: true,
+                minlength:3,
+                maxlength:10
             },
             Email:{
                 required: true,
