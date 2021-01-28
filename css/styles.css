@@ -1709,7 +1709,10 @@ input[type='checkbox'] {
 .form-2 .fa-stack:hover .fa-stack-1x {
 	color: #14bf98;
 }
-
+.error{
+	color: red;
+	font-style: italic;
+}
 
 /**********************/
 /*     17. Footer     */
